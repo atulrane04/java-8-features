@@ -1,5 +1,6 @@
 package com.demo.features.lambada;
 
+
 public class ColourReference
 {
     public static void ColourCode() {
@@ -9,5 +10,6 @@ public class ColourReference
     public static void main(String[] args) {
         Colour colour = ColourReference::ColourCode;
         colour.fillColour();
+
     }
 }
